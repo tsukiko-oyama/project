@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+  width: 100%;
+}
+header {
+  background-color: #000000;
+  text-align: center;
+  color:#fff;
+  height:50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+p{
+  text-align:center;
+  font-weight:bold;
+}
+.movie-list{
+  background-color:yellow;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+main {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+ul {
+  padding: 0;
+  display: table; /* 定義 */
+  table-layout: fixed;
+  width:40%;
+  margin: auto;
+  font-size: 80%;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  border-radius:5px;
+  border: 1px solid #666;
+  background-color: #fff;
+  display: table-cell; /* 定義 */
+  cursor: pointer;
+
+}
+li:hover {
+  background: grey;
+  color: #fff;
+}
+
+table {
+  margin: 20px 3%;
+  width: 96%;
+}
+
+tr{
+  height:30px
+}
+th {
+  width: 20%;
+  font-size: 14px;
+  background-color: white;
+  opacity:0.8;
+  border-radius: 5px;
+  text-align:center;
+
+}
+td {
+  font-size: 14px;
+  background-color: rgb(241, 239, 239);
+  border-radius: 5px;
+  padding-left: 15px;
+
+}
+input {
+  width: 90%;
+  height: 15px;
+  font-size: 80%;
+}
+.input-wrapper{
+  display:flex;
+  justify-content: center;
+}
+.delete-section{
+  margin-top: 10px;
+  background-color: rgba(128, 127, 127, 0.23);
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+}
+#clear{
+  background-color: #666;
+  color: white;
+  font-weight:bold;
+}
